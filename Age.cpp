@@ -9,7 +9,7 @@ int main() {
   tm* local_time = localtime(&current_time);
 
   int c_y = local_time->tm_year + 1900;
-  int c_m = local_time->tm_mon +1;
+  int c_m = local_time->tm_mon + 1;
   int c_d = local_time->tm_mday;
 
   cout <<"Enter Your Birth Year: ";
