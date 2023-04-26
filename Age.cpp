@@ -19,7 +19,7 @@ int main() {
   cout << "Enter Your Birth Day: ";
   cin >> b_d;
 
-  if (c_m <= 12 && b_m >= c_m) {
+  if (b_m >= c_m) {
     cout << c_y - (b_y +1) << " year" << endl;
     cout << (c_m + 12) - (b_m) << " Month" << endl;
     cout << c_d - b_d << " Day" << endl;
